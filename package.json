@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daslef/node-library-vedomosti.git"
+    "url": "git+https://github.com/YanKarpov/kt4-ci-cd"
   },
   "keywords": [
     "parser",
@@ -22,9 +22,9 @@
   "author": "Lex T.",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/daslef/node-library-vedomosti/issues"
+    "url": "https://github.com/YanKarpov/kt4-ci-cd/issues"
   },
-  "homepage": "https://github.com/daslef/node-library-vedomosti#readme",
+  "homepage": "https://github.com/YanKarpov/kt4-ci-cd#readme",
   "devDependencies": {
     "@types/node": "^22.9.1",
     "commitizen": "^4.3.1",
