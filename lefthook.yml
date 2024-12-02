@@ -2,9 +2,9 @@ pre-commit:
   parallel: true
   commands:
     type-check:
-      run: npm run build
+      run: pnpm run build
     test:
-      run: npm test
+      run: pnpm test
 
 commit-msg:
   commands:
@@ -14,10 +14,3 @@ commit-msg:
       env:
         LEFTHOOK: 0
 
-prepare-commit-msg:
-  commands:
-    commitzen:
-      run: pnpm cz
-      interactive: true
-      env:
-        LEFTHOOK: 0

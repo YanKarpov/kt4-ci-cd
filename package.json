@@ -8,6 +8,7 @@
     "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
+    "prepare": "lefthook install",
     "dev": "tsx index.ts",
     "build": "tsc",
     "test": "jest --coverage",
