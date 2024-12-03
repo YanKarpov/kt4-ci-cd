@@ -4,6 +4,7 @@ on:
   push:
     branches: ["main"]
   release:
+    types: [published]
   workflow_dispatch:
 
 concurrency:
@@ -15,10 +16,10 @@ jobs:
     name: publish to github registry
     runs-on: ubuntu-latest
     permissions:
-      contents: write 
-      issues: write 
-      pull-requests: write 
-      id-token: write 
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write
       packages: write
     steps:
       - uses: actions/checkout@v4
