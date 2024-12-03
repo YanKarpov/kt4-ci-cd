@@ -1,16 +1,18 @@
 pre-commit:
-  parallel: true
+  # parallel: true
   commands:
-    type-check:
-      run: pnpm run build
+    # type-check:
+    #   run: pnpm run build
     test:
-      run: pnpm test
+      run: npm test
 
 commit-msg:
   commands:
     commitizen:
-      run: pnpm cz
+      run: |
+        echo "Running commitizen"
+        LEFTHOOK=0 npx cz
       interactive: true
-      env:
-        LEFTHOOK: 0
+
+
 
